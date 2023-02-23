@@ -1,0 +1,5 @@
+SELECT * FROM s3object s LIMIT 5
+
+select s.* from s3object[*].products[*] s where s.id=2
+
+select s.price from s3object[*].products[*] s where s.id=2
